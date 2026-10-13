@@ -286,7 +286,6 @@
   color: var(--backgroundColor);
   font-size: 60px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 .loading-marquee span {
   padding: 0px 50px;

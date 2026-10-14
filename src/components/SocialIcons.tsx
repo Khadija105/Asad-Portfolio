@@ -1,6 +1,6 @@
 import {
   FaEnvelope,
-  FaGlobe,
+  FaGithub,
   FaLinkedinIn,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
@@ -64,8 +64,11 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.immersive-fox.com/" target="_blank" rel="noreferrer">
-            <FaGlobe />
+          <a
+            href="https://github.com/ranaasadmahmood85-code"
+            aria-label="GitHub"
+          >
+            <FaGithub />
           </a>
         </span>
         <span>

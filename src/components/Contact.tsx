@@ -30,12 +30,13 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.immersive-fox.com/"
+              href="https://github.com/ranaasadmahmood85-code"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Immersive Fox <MdArrowOutward />
+              GitHub <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">

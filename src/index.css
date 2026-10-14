@@ -101,14 +101,30 @@ body {
 }
 
 .techstack h2 {
-  font-size: 80px;
-  text-align: center;
+  font-size: 70px;
+  text-align: left;
   position: absolute;
-  width: 100%;
-  top: 120px;
-  left: 0;
+  width: var(--cWidth);
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
   font-weight: 400;
   text-transform: uppercase;
+  background: linear-gradient(0deg, #7f40ff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  z-index: 1;
+  margin: 0;
+}
+
+.techstack canvas {
+  position: absolute !important;
+  top: 180px;
+  left: 0;
+  width: 100% !important;
+  height: calc(100% - 180px) !important;
 }
 
 @media screen and (min-width: 768px) {

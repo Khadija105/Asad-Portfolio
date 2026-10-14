@@ -45,13 +45,6 @@ const Navbar = () => {
         <a href="/#" className="navbar-title" data-cursor="disable">
           ASAD RANA
         </a>
-        <a
-          href="mailto:ranaasadmahmood85@gmail.com"
-          className="navbar-connect"
-          data-cursor="disable"
-        >
-          ranaasadmahmood85@gmail.com
-        </a>
         <ul>
           <li>
             <a data-href="#about" href="#about">

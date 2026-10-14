@@ -6,12 +6,24 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
-const projects = [
+interface Project {
+  name: string;
+  category: string;
+  tools: string;
+  image: string;
+  description?: string;
+  link?: string;
+}
+
+const projects: Project[] = [
   {
     name: "Immersive Fox",
     category: "AI video learning platform",
+    description:
+      "An AI platform built with Next.js, React, Python, Django, and AWS that turns PDFs into video courses in 57+ languages. I have worked on its frontend UI, reusable components, and LLM integrations for AI automation for over two years and continue to contribute to it.",
     tools: "Next.js, React, Python, Django, AWS, LLM integrations",
-    image: "/images/next2.webp",
+    image: "/images/immersive-fox.png",
+    link: "https://immersive-fox.com",
   },
   {
     name: "ReadyHubb",
@@ -115,6 +127,7 @@ const Work = () => {
                     <p>{project.category}</p>
                   </div>
                 </div>
+                {project.description && <p>{project.description}</p>}
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>

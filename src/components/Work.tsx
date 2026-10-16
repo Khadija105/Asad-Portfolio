@@ -73,8 +73,11 @@ const projects: Project[] = [
   {
     name: "EA Foods",
     category: "Food industry platform",
-    tools: "React, admin panels, UI development",
-    image: "/images/express.webp",
+    description:
+      "A food industry platform building a bridge between local farmers and the market by supporting local farmers and the local economy with exceptional services. I am currently working on its admin panels and UI development.",
+    tools: "React, admin panels, UI development, responsive design",
+    image: "/images/eafoods.png",
+    link: "https://www.eafoods.com/",
   },
   {
     name: "Sendexa Docs",

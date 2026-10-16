@@ -36,9 +36,12 @@ const projects: Project[] = [
   },
   {
     name: "Instantly AI",
-    category: "Cold email SaaS",
-    tools: "React, JavaScript, REST APIs",
-    image: "/images/javascript.webp",
+    category: "Cold email SaaS platform",
+    description:
+      "A sales engagement and lead intelligence platform that helps teams find perfect leads, create AI Sales Agents, and automate outreach and sales. I worked on its frontend for six months.",
+    tools: "React, JavaScript, AI Sales Agents, outreach automation",
+    image: "/images/instantly.png",
+    link: "https://instantly.ai/",
   },
   {
     name: "CrewBloom",
@@ -134,7 +137,11 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image} alt={`${project.name} project`} />
+              <WorkImage
+                image={project.image}
+                alt={`${project.name} project`}
+                link={project.link}
+              />
             </div>
           ))}
         </div>

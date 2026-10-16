@@ -82,8 +82,11 @@ const projects: Project[] = [
   {
     name: "Sendexa Docs",
     category: "Developer documentation",
-    tools: "React, JavaScript, documentation UI",
-    image: "/images/placeholder.webp",
+    description:
+      "Developer documentation for Sendexa, a communications platform built for scale across Africa. Businesses rely on Sendexa for messaging, verification, customer engagement, and communication workflows. I worked on its frontend UI.",
+    tools: "React, JavaScript, documentation UI, responsive design",
+    image: "/images/sendexa.png",
+    link: "https://docs.sendexa.co/introduction",
   },
 ];
 

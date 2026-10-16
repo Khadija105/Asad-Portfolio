@@ -63,9 +63,12 @@ const projects: Project[] = [
   },
   {
     name: "CleanTasker",
-    category: "Cleaning services platform",
-    tools: "React, Tailwind CSS, REST APIs",
-    image: "/images/node.webp",
+    category: "Cleaning services Australian platform",
+    description:
+      "An Australian platform that helps businesses streamline operations, manage mobile workforces, and maintain greater control across every site and every job. I contributed to its frontend development.",
+    tools: "React, Tailwind CSS, REST APIs, workforce management",
+    image: "/images/cleantasker.png",
+    link: "https://cleantasker.com/",
   },
   {
     name: "EA Foods",

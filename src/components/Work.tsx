@@ -27,9 +27,12 @@ const projects: Project[] = [
   },
   {
     name: "ReadyHubb",
-    category: "Staffing platform",
+    category: "Beauty and services platform",
+    description:
+      "A platform for beauty and service professionals to manage bookings, clients, payments, scheduling, and business growth. I contributed to its Next.js frontend and SSR components for almost one year.",
     tools: "Next.js, SSR, React, TypeScript",
-    image: "/images/react2.webp",
+    image: "/images/readyhubb.png",
+    link: "https://pro.readyhubb.com/",
   },
   {
     name: "Instantly AI",

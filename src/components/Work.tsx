@@ -46,8 +46,11 @@ const projects: Project[] = [
   {
     name: "CrewBloom",
     category: "Remote staffing platform",
-    tools: "React, JavaScript, responsive UI",
-    image: "/images/next.webp",
+    description:
+      "A remote staffing platform that connects U.S. MSMEs with top-tier Filipino professionals, making outsourcing more affordable, efficient, and profitable. I contributed to its frontend for one year.",
+    tools: "React, JavaScript, responsive UI, staffing platform",
+    image: "/images/crewbloom.png",
+    link: "https://crewbloom.com/",
   },
   {
     name: "AuditOne",

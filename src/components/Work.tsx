@@ -55,8 +55,11 @@ const projects: Project[] = [
   {
     name: "AuditOne",
     category: "Web3 & AI cybersecurity",
-    tools: "React, TypeScript, Material UI",
-    image: "/images/typescript.webp",
+    description:
+      "An all-in-one security platform for smart contracts that offers security services and tools to help ensure the safety of Web3 applications. I worked on its React.js frontend.",
+    tools: "React.js, TypeScript, Material UI, Web3 security",
+    image: "/images/auditone.png",
+    link: "https://www.auditone.io/",
   },
   {
     name: "CleanTasker",
